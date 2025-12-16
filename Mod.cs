@@ -22,7 +22,7 @@ namespace BlueheadsAioTrader;
 // This record holds the various properties for your mod
 public record ModMetadata : AbstractModMetadata
 {
-    public override string ModGuid { get; init; } = "com.bluehead.aiotrader";
+    public override string ModGuid { get; init; } = "com.xbluehead.xaiotrader";
     public override string Name { get; init; } = "Bluehead's AIO Trader";
     public override string Author { get; init; } = "Bluehead";
     public override List<string>? Contributors { get; init; } = ["All Users"];
